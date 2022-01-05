@@ -9,7 +9,7 @@
 
     <wallpaper deleted="false">
         <name>tauOS Default</name>
-        <filename>/usr/share/backgrounds/tauOS/default/tau-default.png</filename>
+        <filename>/usr/share/backgrounds/tau-wallpapers/default/tau-wallpapers.png</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
