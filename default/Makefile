@@ -12,6 +12,7 @@ install:
 	#    $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	# done;
 	$(INSTALL) tau.png	$(WP_DIR)/default/tau.png
+	$(INSTALL) ally-griffin.jpg	$(WP_DIR)/default/ally-griffin.jpg
 	
 	#~ GNOME background
 	$(MKDIR) $(GNOME_BG_DIR)

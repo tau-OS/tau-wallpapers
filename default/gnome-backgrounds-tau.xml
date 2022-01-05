@@ -15,6 +15,14 @@
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ally Griffin</name>
+        <filename>/usr/share/backgrounds/tauOS/default/ally-griffin.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
 
     <!-- <wallpaper deleted="false">
         <name>Fedora 35 Night</name>
