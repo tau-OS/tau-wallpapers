@@ -1,5 +1,4 @@
-WP_NAME=tau-default
-WP_BIGNAME=tauOS
+WP_NAME=tau-wallpapers
 WP_DIR=$(DESTDIR)/usr/share/backgrounds/$(WP_NAME)
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 MKDIR=/bin/mkdir -p
