@@ -14,7 +14,6 @@ install:
 	#    $(INSTALL) $(WP_NAME)-$${tod}.png	$(WP_DIR)/default/$(WP_NAME)-$${tod}.png ; \
 	# done;
 	$(INSTALL) $(WP_NAME).png	$(WP_DIR)/default/$(WP_NAME).png
-	$(INSTALL) $(WP_NAME).xml	$(WP_DIR)/default/$(WP_NAME).xml 
 	
 	#~ GNOME background
 	$(MKDIR) $(GNOME_BG_DIR)
