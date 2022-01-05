@@ -1,4 +1,4 @@
-WP_DIR=$(DESTDIR)/usr/share/backgrounds/tauOS
+WP_DIR=$(DESTDIR)/usr/share/backgrounds/tauos
 GNOME_BG_DIR=$(DESTDIR)/usr/share/gnome-background-properties
 MKDIR=/bin/mkdir -p
 INSTALL=/usr/bin/install -p -m644 -D
