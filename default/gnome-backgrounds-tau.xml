@@ -15,6 +15,7 @@
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
     </wallpaper>
+
     <wallpaper deleted="false">
         <name>Ally Griffin</name>
         <filename>/usr/share/backgrounds/tauOS/default/ally-griffin.jpg</filename>
@@ -32,4 +33,144 @@
         <pcolor>#3c6eb4</pcolor>
         <scolor>#294172</scolor>
     </wallpaper> -->
+
+    <wallpaper deleted=false>
+        <name>And machines</name>
+        <filename>/usr/share/backgrounds/tauOS/default/and-machines.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Bradley allweil</name>
+        <filename>/usr/share/backgrounds/tauOS/default/bradley-allweil.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Daniel sessler</name>
+        <filename>/usr/share/backgrounds/tauOS/default/daniel-sessler.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Dim gunger</name>
+        <filename>/usr/share/backgrounds/tauOS/default/dim-gunger.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Fakurian design</name>
+        <filename>/usr/share/backgrounds/tauOS/default/fakurian-design.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Giordano rossoni</name>
+        <filename>/usr/share/backgrounds/tauOS/default/giordano-rossoni.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Jan walter-luigi</name>
+        <filename>/usr/share/backgrounds/tauOS/default/jan-walter-luigi.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>John paul-dorf</name>
+        <filename>/usr/share/backgrounds/tauOS/default/john-paul-dorf.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Luka verc</name>
+        <filename>/usr/share/backgrounds/tauOS/default/luka-verc.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Marek piwnicki</name>
+        <filename>/usr/share/backgrounds/tauOS/default/marek-piwnicki.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Maxim berg</name>
+        <filename>/usr/share/backgrounds/tauOS/default/maxim-berg.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Simon berger</name>
+        <filename>/usr/share/backgrounds/tauOS/default/simon-berger.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Solen feyissa</name>
+        <filename>/usr/share/backgrounds/tauOS/default/solen-feyissa.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted=false>
+        <name>Warren umoh</name>
+        <filename>/usr/share/backgrounds/tauOS/default/warren-umoh.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
 </wallpapers>
