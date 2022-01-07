@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
-    <!-- <wallpaper deleted="false">
-        <name>Fedora 35 Time of Day</name>
-        <filename>/usr/share/backgrounds/f35/default/f35.xml</filename>
-        <options>zoom</options>
-    </wallpaper> -->
-
     <wallpaper deleted="false">
         <name>tauOS Default</name>
         <filename>/usr/share/backgrounds/tauos/default/tau.png</filename>
@@ -25,16 +19,7 @@
         <scolor>#294172</scolor>
     </wallpaper>
 
-    <!-- <wallpaper deleted="false">
-        <name>Fedora 35 Night</name>
-        <filename>/usr/share/backgrounds/f35/default/f35-02-night.png</filename>
-        <options>zoom</options>
-        <shade_type>solid</shade_type>
-        <pcolor>#3c6eb4</pcolor>
-        <scolor>#294172</scolor>
-    </wallpaper> -->
-
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>And machines</name>
         <filename>/usr/share/backgrounds/tauos/default/and-machines.jpg</filename>
         <options>zoom</options>
@@ -44,7 +29,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Bradley allweil</name>
         <filename>/usr/share/backgrounds/tauos/default/bradley-allweil.jpg</filename>
         <options>zoom</options>
@@ -54,7 +39,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Daniel sessler</name>
         <filename>/usr/share/backgrounds/tauos/default/daniel-sessler.jpg</filename>
         <options>zoom</options>
@@ -64,7 +49,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Dim gunger</name>
         <filename>/usr/share/backgrounds/tauos/default/dim-gunger.jpg</filename>
         <options>zoom</options>
@@ -74,7 +59,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Fakurian design</name>
         <filename>/usr/share/backgrounds/tauos/default/fakurian-design.jpg</filename>
         <options>zoom</options>
@@ -84,7 +69,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Giordano rossoni</name>
         <filename>/usr/share/backgrounds/tauos/default/giordano-rossoni.jpg</filename>
         <options>zoom</options>
@@ -94,7 +79,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Jan walter-luigi</name>
         <filename>/usr/share/backgrounds/tauos/default/jan-walter-luigi.jpg</filename>
         <options>zoom</options>
@@ -104,7 +89,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>John paul-dorf</name>
         <filename>/usr/share/backgrounds/tauos/default/john-paul-dorf.jpg</filename>
         <options>zoom</options>
@@ -114,7 +99,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Luka verc</name>
         <filename>/usr/share/backgrounds/tauos/default/luka-verc.jpg</filename>
         <options>zoom</options>
@@ -124,7 +109,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Marek piwnicki</name>
         <filename>/usr/share/backgrounds/tauos/default/marek-piwnicki.jpg</filename>
         <options>zoom</options>
@@ -134,7 +119,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Maxim berg</name>
         <filename>/usr/share/backgrounds/tauos/default/maxim-berg.jpg</filename>
         <options>zoom</options>
@@ -144,7 +129,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Simon berger</name>
         <filename>/usr/share/backgrounds/tauos/default/simon-berger.jpg</filename>
         <options>zoom</options>
@@ -154,7 +139,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Solen feyissa</name>
         <filename>/usr/share/backgrounds/tauos/default/solen-feyissa.jpg</filename>
         <options>zoom</options>
@@ -164,7 +149,7 @@
     </wallpaper>
     
 
-    <wallpaper deleted=false>
+    <wallpaper deleted="false">
         <name>Warren umoh</name>
         <filename>/usr/share/backgrounds/tauos/default/warren-umoh.jpg</filename>
         <options>zoom</options>
