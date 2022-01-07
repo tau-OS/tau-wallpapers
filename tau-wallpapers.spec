@@ -1,10 +1,10 @@
 %global relnum 1
-%global Bg_Name tau-wallpapers
+%global Bg_Name tauOS
 %global bgname %(t="%{Bg_Name}";echo ${t,,})
 
-Name:       %{bgname}
+Name:       tau-wallpapers
 Version:    %{relnum}.0.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
@@ -52,10 +52,10 @@ tauOS  %{relnum} default theme.
 %license COPYING Attribution
 %dir %{_datadir}/backgrounds/%{bgname}
 %dir %{_datadir}/backgrounds/%{bgname}/default
-%{_datadir}/backgrounds/%{bgname}/default/%{bgname}*.{png,xml}
+%{_datadir}/backgrounds/%{bgname}/default/*.{png,jpg,xml}
 
 %files gnome
-%{_datadir}/gnome-background-properties/%{bgname}.xml
+%{_datadir}/gnome-background-properties/tau.xml
 %dir %{_datadir}/gnome-background-properties/
 
 %changelog
