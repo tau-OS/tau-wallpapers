@@ -16,6 +16,9 @@ BuildArch:  noarch
 
 Requires:   %{name}-gnome
 
+# for %%_kde4_* macros
+BuildRequires:  kde-filesystem
+
 
 %description
 This package contains desktop backgrounds for the tauOS %{relnum} default
@@ -34,6 +37,15 @@ Requires:   %{name}-base = %{version}-%{release}
 
 %description	gnome
 This package contains Gnome desktop wallpaper for the
+tauOS  %{relnum} default theme.
+
+%package	kde
+Summary:    tauOS  %{relnum} default wallpaper for KDE
+Requires:   %{name}-base = %{version}-%{release}
+Requires:   kde-filesystem
+
+%description	kde
+This package contains KDE desktop wallpaper for the
 tauOS  %{relnum} default theme.
 
 %prep
@@ -57,6 +69,12 @@ tauOS  %{relnum} default theme.
 %files gnome
 %{_datadir}/gnome-background-properties/tau.xml
 %dir %{_datadir}/gnome-background-properties/
+
+%files kde
+%{_kde4_datadir}/wallpapers/tauos/
+%dir %{_datadir}/plasma/
+%dir %{_datadir}/plasma/desktoptheme/
+%{_datadir}/plasma/desktoptheme/tauos/
 
 %changelog
 * Mon Feb 22 2021 Luya Tshimbalanga <luya@fedoraproject.org> - 35.0.0-1
