@@ -39,6 +39,6 @@ install:
 	$(INSTALL) tau-metadata.desktop	$(PLASMA_BG_DIR)/tauos/metadata.desktop
 
 	for name in *.jpg; do \
-		$(INSTALL) $${name}	$(KDE_BG_DIR)/tauos/contents/images/$${name} ; \
+		$(LN_S) $${name}	$(KDE_BG_DIR)/tauos/contents/images/$${name} ; \
     done;
 	
