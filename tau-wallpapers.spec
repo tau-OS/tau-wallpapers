@@ -1,10 +1,16 @@
+%bcond_with el
+
 %global relnum 1
 %global Bg_Name tauOS
 %global bgname %(t="%{Bg_Name}";echo ${t,,})
 
 Name:       tau-wallpapers
 Version:    %{relnum}.0.0
+%if %{with el}
+Release:    2.el8
+%else
 Release:    2%{?dist}
+%endif
 Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
