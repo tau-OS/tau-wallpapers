@@ -1,10 +1,13 @@
 include:
-  project: 'tauOS/ci'
-  file: '/.rpm-build-template.yml'
+  - project: 'tauOS/ci'
+    file: '/.rpm-build-template.yml'
+  - project: 'tauOS/ci'
+    file: '/.packagecloud-template.yml'
 
 stages:
   - setup
   - build
+  - upload
 
 build-job:
   stage: build
@@ -15,3 +18,11 @@ build-job:
     PACKAGE_NAME: "tau-wallpapers"
     PACKAGE_ARCH: "noarch"
   extends: .build
+
+upload-job:
+  stage: upload
+  variables:
+    PACKAGE_VERSION: "fedora/35"
+  extends: .upload
+  dependencies:
+  - build_job
