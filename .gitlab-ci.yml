@@ -23,5 +23,5 @@ build-job:
     paths:
       - "*/*.rpm"
     exclude:
-      - "*/*.sha1sum"
+      - "*.sha1sum"
     expire_in: 1 week
