@@ -15,11 +15,13 @@ build-job:
   script:
     - make archive
     - mv $PACKAGE_NAME-$PACKAGE_VERSION.tar.gz ~/rpmbuild/SOURCES
-    - rpmbuild -ba $PACKAGE_NAME.spec --define "_rpmdir $(pwd)"
+    - rpmbuild -ba $PACKAGE_NAME.spec --define "_rpmdir $(pwd)" --define "_srcrpmdir $(pwd)"
     - mkdir out
   artifacts:
     name: "$PACKAGE_NAME-$PACKAGE_VERSION.$PACKAGE_ARCH"
     untracked: true
     paths:
       - "*/*.rpm"
+    exclude:
+      - "*/*.sha1sum"
     expire_in: 1 week
