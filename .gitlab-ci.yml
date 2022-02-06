@@ -18,7 +18,7 @@ build-job:
     - rpmbuild -ba $PACKAGE_NAME.spec --define "_rpmdir $(pwd)"
     - mkdir out
   artifacts:
-    name: "$PACKAGE_NAME-$PACKAGE_VERSION.$PACKAE_ARCH"
+    name: "$PACKAGE_NAME-$PACKAGE_VERSION.$PACKAGE_ARCH"
     untracked: true
     paths:
       - "*/*.rpm"
