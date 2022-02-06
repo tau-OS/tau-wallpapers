@@ -3,12 +3,16 @@ include:
   file: '/.rpm-build-template.yml'
 
 stages:
+  - setup
   - build
+
+setup-job:
+  stage: setup
+  script:
+    - sudo dnf install -y kde-filesystem
 
 build-job:
   stage: build
-  script:
-    - sudo dnf install -y kde-filesystem
   variables:
     PACKAGE_VERSION: "37.0.0"
     PACKAGE_NAME: "tau-wallpapers"
