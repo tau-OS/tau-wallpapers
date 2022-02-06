@@ -5,7 +5,6 @@ include:
     file: '/.packagecloud-template.yml'
 
 stages:
-  - setup
   - build
   - upload
 
