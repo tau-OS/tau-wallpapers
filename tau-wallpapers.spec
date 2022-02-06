@@ -8,8 +8,8 @@ Release:    1%{?dist}
 Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
-URL:        https://github.com/tauLinux/%{name}
-Source0:    https://github.com/tauLinux/%{name}/archive/refs/tags/%{name}-%{version}.tar.gz
+URL:        https://sourceview.innatical.com/tauos/%{name}
+Source0:    https://sourceview.innatical.com/tauos/%{name}/-/archive/main/%{name}-main.tar.gz
 
 BuildRoot:  %{_tmppath}/%{name}
 BuildArch:  noarch
