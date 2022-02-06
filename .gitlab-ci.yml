@@ -2,26 +2,13 @@ include:
   project: 'tauOS/ci'
   file: '/.rpm-build-template.yml'
 
-variables:
-  PACKAGE_VERSION: "37.0.0"
-  PACKAGE_NAME: "tau-wallpapers"
-  PACKAGE_ARCH: "noarch"
-
 stages:
   - build
 
 build-job:
   stage: build
-  script:
-    - make archive
-    - mv $PACKAGE_NAME-$PACKAGE_VERSION.tar.gz ~/rpmbuild/SOURCES
-    - rpmbuild -ba $PACKAGE_NAME.spec --define "_rpmdir $(pwd)" --define "_srcrpmdir $(pwd)"
-    - mkdir out
-  artifacts:
-    name: "$PACKAGE_NAME-$PACKAGE_VERSION.$PACKAGE_ARCH"
-    untracked: true
-    paths:
-      - "*/*.rpm"
-    exclude:
-      - "*.sha1sum"
-    expire_in: 1 week
+  variables:
+    PACKAGE_VERSION: "37.0.0"
+    PACKAGE_NAME: "tau-wallpapers"
+    PACKAGE_ARCH: "noarch"
+  extends: .build
