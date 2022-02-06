@@ -9,7 +9,7 @@ Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
 URL:        https://sourceview.innatical.com/tauos/%{name}
-Source0:    https://sourceview.innatical.com/tauos/%{name}/-/archive/main/%{name}-main.tar.gz
+Source0:    %{name}-%{version}.tar.gz
 
 BuildRoot:  %{_tmppath}/%{name}
 BuildArch:  noarch
