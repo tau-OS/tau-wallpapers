@@ -22,6 +22,3 @@ install:
 	#~ GNOME background
 	$(MKDIR) $(GNOME_BG_DIR)
 	$(INSTALL) gnome-backgrounds-tau.xml	$(GNOME_BG_DIR)/tau.xml
-
-    done;
-	
