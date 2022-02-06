@@ -3,8 +3,8 @@
 %global bgname tauos
 
 Name:       tau-wallpapers
-Version:    37.0.0
-Release:    2%{?dist}
+Version:    1.0.0
+Release:    1%{?dist}
 Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
