@@ -24,5 +24,3 @@ upload-job:
   variables:
     PACKAGE_VERSION: "fedora/35"
   extends: .upload
-  dependencies:
-  - build_job
