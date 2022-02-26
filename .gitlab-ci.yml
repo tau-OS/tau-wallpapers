@@ -2,11 +2,11 @@ include:
   - project: 'tauOS/ci'
     file: '/.rpm-build-template.yml'
   - project: 'tauOS/ci'
-    file: '/.packagecloud-template.yml'
+    file: '/.rpm-sign-template.yml'
 
 stages:
   - build
-  - upload
+  - sign
 
 build-job:
   stage: build
@@ -18,8 +18,6 @@ build-job:
     PACKAGE_ARCH: "noarch"
   extends: .build
 
-upload-job:
-  stage: upload
-  variables:
-    PACKAGE_VERSION: "fedora/35"
-  extends: .upload
+sign-job:
+  stage: sign
+  extends: .sign
