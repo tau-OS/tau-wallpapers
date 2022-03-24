@@ -1,10 +1,10 @@
-%global relnum 1
+%global relnum 1.1
 %global Bg_Name tauOS
 %global bgname tauos
 
 Name:       tau-wallpapers
-Version:    1.0.0
-Release:    1%{?dist}
+Version:    1.1
+Release:    0%{?dist}
 Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
@@ -76,5 +76,8 @@ tauOS  %{relnum} default theme.
 %{_datadir}/plasma/desktoptheme/tauos/
 
 %changelog
+* Wed Mar 23 2022 Jamie Lee <jamie@innatical.com> - 1.1-0
+- Update for Fedora 36
+
 * Mon Feb 22 2021 Luya Tshimbalanga <luya@fedoraproject.org> - 35.0.0-1
 - Initial package
