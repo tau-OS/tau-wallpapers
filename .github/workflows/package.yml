@@ -12,6 +12,7 @@ jobs:
       name: "tau-wallpapers"
       version: "1.1"
       arch: "noarch"
+      extraBuildPackages: kde-filesystem
   sign:
     needs:
       - build
