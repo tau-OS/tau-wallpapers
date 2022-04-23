@@ -18,6 +18,7 @@ Requires:   %{name}-gnome
 
 # for %%_kde4_* macros
 BuildRequires:  kde-filesystem
+BuildRequires:  make
 
 %description
 This package contains desktop backgrounds for the tauOS %{relnum} default
