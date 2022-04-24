@@ -15,8 +15,6 @@ BuildArch:  noarch
 
 Requires:   %{name}-gnome
 
-# for %%_kde4_* macros
-BuildRequires:  kde-filesystem
 BuildRequires:  make
 
 %description
@@ -38,27 +36,16 @@ Requires:   %{name}-base = %{version}-%{release}
 This package contains Gnome desktop wallpaper for the
 tauOS  %{VERSION} default theme.
 
-%package	kde
-Summary:    tauOS  %{VERSION} default wallpaper for KDE
-Requires:   %{name}-base = %{version}-%{release}
-Requires:   kde-filesystem
-
-%description	kde
-This package contains KDE desktop wallpaper for the
-tauOS  %{VERSION} default theme.
-
 %prep
 %setup -q
 
 %build
-
 
 %install
 %make_install
 
 %files
 %doc README.md
-%license COPYING
 
 %files base
 %license Attribution
@@ -70,15 +57,9 @@ tauOS  %{VERSION} default theme.
 %{_datadir}/gnome-background-properties/tau.xml
 %dir %{_datadir}/gnome-background-properties/
 
-%files kde
-%{_kde4_datadir}/wallpapers/tauos/
-%dir %{_datadir}/plasma/
-%dir %{_datadir}/plasma/desktoptheme/
-%{_datadir}/plasma/desktoptheme/tauos/
-
 %changelog
-* Sun Apr 10 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-1
-- Update Build Process
+* Sat Apr 23 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-1
+- Update for CI
 
 * Wed Mar 23 2022 Jamie Lee <jamie@innatical.com> - 1.1-0
 - Update for Fedora 36
