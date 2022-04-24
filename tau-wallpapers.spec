@@ -4,7 +4,7 @@
 
 Name:       tau-wallpapers
 Version:    1.1
-Release:    0%{?dist}
+Release:    1%{?dist}
 Summary:    tauOS %{relnum} default desktop background
 
 License:    CC-BY-SA-4.0
@@ -16,8 +16,6 @@ BuildArch:  noarch
 
 Requires:   %{name}-gnome
 
-# for %%_kde4_* macros
-BuildRequires:  kde-filesystem
 BuildRequires:  make
 
 %description
@@ -39,26 +37,16 @@ Requires:   %{name}-base = %{version}-%{release}
 This package contains Gnome desktop wallpaper for the
 tauOS  %{relnum} default theme.
 
-%package	kde
-Summary:    tauOS  %{relnum} default wallpaper for KDE
-Requires:   %{name}-base = %{version}-%{release}
-Requires:   kde-filesystem
-
-%description	kde
-This package contains KDE desktop wallpaper for the
-tauOS  %{relnum} default theme.
-
 %prep
 %setup -q
 
 %build
 
-
 %install
 %make_install
 
 %files
-%doc
+%doc README.md
 
 %files base
 %license COPYING Attribution
@@ -70,13 +58,10 @@ tauOS  %{relnum} default theme.
 %{_datadir}/gnome-background-properties/tau.xml
 %dir %{_datadir}/gnome-background-properties/
 
-%files kde
-%{_kde4_datadir}/wallpapers/tauos/
-%dir %{_datadir}/plasma/
-%dir %{_datadir}/plasma/desktoptheme/
-%{_datadir}/plasma/desktoptheme/tauos/
-
 %changelog
+* Sat Apr 23 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-1
+- Update for CI
+
 * Wed Mar 23 2022 Jamie Lee <jamie@innatical.com> - 1.1-0
 - Update for Fedora 36
 
