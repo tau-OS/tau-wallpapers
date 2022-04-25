@@ -52,12 +52,12 @@ tauOS  %{VERSION} default theme.
 %files base
 %license Attribution
 %dir %{_datadir}/backgrounds/%{bgname}
-%dir %{_datadir}/backgrounds/%{bgname}/default
-%{_datadir}/backgrounds/%{bgname}/default/*.{png,jpg,xml}
+%{_datadir}/backgrounds/%{bgname}/*.{png,jpg,xml}
 
 %files gnome
-%{_datadir}/gnome-background-properties/tau.xml
 %dir %{_datadir}/gnome-background-properties/
+%{_datadir}/gnome-background-properties/tau-backgrounds.xml
+%{_datadir}/gnome-background-properties/tau.xml
 
 %changelog
 * Mon Apr 25 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-2
