@@ -3,7 +3,8 @@
 <wallpapers>
     <wallpaper deleted="false">
         <name>tauOS Default</name>
-        <filename>@BACKGROUNDDIR@/tau.png</filename>
+        <filename>@BACKGROUNDDIR@/tau-light.png</filename>
+        <filename-dark>@BACKGROUNDDIR@/tau-dark.png</filename-dark>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>

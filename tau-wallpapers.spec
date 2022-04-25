@@ -3,7 +3,7 @@
 
 Name:       tau-wallpapers
 Version:    1.1
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    tauOS %{VERSION} default desktop background
 
 License:    CC-BY-SA-4.0
@@ -15,7 +15,7 @@ BuildArch:  noarch
 
 Requires:   %{name}-gnome
 
-BuildRequires:  make
+BuildRequires:  meson
 
 %description
 This package contains desktop backgrounds for the tauOS %{VERSION} default
@@ -37,12 +37,14 @@ This package contains Gnome desktop wallpaper for the
 tauOS  %{VERSION} default theme.
 
 %prep
-%setup -q
+%autosetup
 
 %build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %files
 %doc README.md
@@ -58,6 +60,10 @@ tauOS  %{VERSION} default theme.
 %dir %{_datadir}/gnome-background-properties/
 
 %changelog
+* Mon Apr 25 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-2
+- Dark Mode Wallpapers
+- Switch to Meson
+
 * Sat Apr 23 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-1
 - Update for CI
 
