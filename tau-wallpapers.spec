@@ -3,7 +3,7 @@
 
 Name:       tau-wallpapers
 Version:    1.1
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    tauOS %{VERSION} default desktop background
 
 License:    CC-BY-SA-4.0
@@ -60,6 +60,9 @@ tauOS  %{VERSION} default theme.
 %{_datadir}/gnome-background-properties/tau.xml
 
 %changelog
+* Mon Apr 25 2022 Lains <lainsce@airmail.cc> - 1.1-3
+- Remove the default wallpapers (tau-light and tau-dark) from slideshow XML
+
 * Mon Apr 25 2022 Jamie Murphy <jamie@fyralabs.com> - 1.1-2
 - Dark Mode Wallpapers
 - Switch to Meson
