@@ -4,7 +4,7 @@
   <wallpaper deleted="false">
     <name>3D 01</name>
     <filename>@BACKGROUNDDIR@/3D_01-light.png</filename>
-    <filename-dark>@BACKGROUNDDIR@/3D_01-dark.jpg</filename-dark>
+    <filename-dark>@BACKGROUNDDIR@/3D_01-dark.png</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3c6eb4</pcolor>

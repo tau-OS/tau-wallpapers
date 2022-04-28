@@ -3,7 +3,7 @@
 
 Name:       tau-wallpapers
 Version:    1.1
-Release:    5%{?dist}
+Release:    6%{?dist}
 Summary:    tauOS %{VERSION} default desktop background
 
 License:    CC-BY-SA-4.0
@@ -59,6 +59,9 @@ tauOS  %{VERSION} default theme.
 %{_datadir}/gnome-background-properties/*.xml
 
 %changelog
+* Thu Apr 28 2022 Lains <lainsce@airmail.cc> - 1.1-6
+- Fix some wallpapers not showing
+
 * Thu Apr 28 2022 Lains <lainsce@airmail.cc> - 1.1-5
 - Make MORE Light/Dark pairs
 
