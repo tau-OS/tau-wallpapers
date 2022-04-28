@@ -11,13 +11,15 @@ backgrounds = [
   'bradley-allweil.jpg',
   'daniel-sessler.jpg',
   'dim-gunger.jpg',
-  'fakurian-design.jpg',
+  'fakurian-design-light.jpg',
+  'fakurian-design-dark.jpg',
   'giordano-rossoni.jpg',
   'jan-walter-luigi.jpg',
   'john-paul-dorf.jpg',  
   'luka-verc.jpg',
   'marek-piwnicki.jpg',
-  'maxim-berg.jpg',
+  'maxim-berg-light.jpg',
+  'maxim-berg-dark.jpg',
   'simon-berger.jpg',
   'solen-feyissa.jpg',
   'warren-umoh.jpg',
@@ -27,7 +29,8 @@ install_data(backgrounds, install_dir: backgrounddir)
 
 foreach metadata : [
   'tau.xml',
-  'tau-backgrounds.xml']
+  'fakurian-design.xml',
+  'maxim-berg.xml']
   configure_file(
     input: metadata + '.in',
     output: metadata,
