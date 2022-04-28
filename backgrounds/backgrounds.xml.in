@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Ally Griffin</name>
+        <filename>@BACKGROUNDDIR@/ally-griffin.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+
+    <wallpaper deleted="false">
+        <name>Bradley allweil</name>
+        <filename>@BACKGROUNDDIR@/bradley-allweil.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted="false">
+        <name>Daniel sessler</name>
+        <filename>@BACKGROUNDDIR@/daniel-sessler.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted="false">
+        <name>Giordano rossoni</name>
+        <filename>@BACKGROUNDDIR@/giordano-rossoni.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted="false">
+        <name>Jan walter-luigi</name>
+        <filename>@BACKGROUNDDIR@/jan-walter-luigi.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted="false">
+        <name>John paul-dorf</name>
+        <filename>@BACKGROUNDDIR@/john-paul-dorf.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted="false">
+        <name>Luka verc</name>
+        <filename>@BACKGROUNDDIR@/luka-verc.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+
+    <wallpaper deleted="false">
+        <name>Simon berger</name>
+        <filename>@BACKGROUNDDIR@/simon-berger.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#3c6eb4</pcolor>
+        <scolor>#294172</scolor>
+    </wallpaper>
+    
+</wallpapers>
