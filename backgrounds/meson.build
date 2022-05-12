@@ -38,7 +38,7 @@ install_data(backgrounds, install_dir: backgrounddir)
 foreach metadata : [
   'backgrounds.xml',
   'tau.xml',
-  'neutrino.xml'
+  'neutrino.xml',
   'fakurian-design.xml',
   'maxim-berg.xml',
   '3D_01.xml',
