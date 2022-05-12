@@ -5,6 +5,8 @@ dataconf.set('datadir', datadir)
 backgrounds = [
   'tau-light.png',
   'tau-dark.png',
+  'neutrino-dark.png',
+  'neutrino-light.png',
   '3D_01-light.png',
   '3D_01-dark.png',
   'ally-griffin.jpg',
@@ -28,7 +30,7 @@ backgrounds = [
   'solen-feyissa-light.jpg',
   'solen-feyissa-dark.jpg',
   'warren-umoh-light.jpg',
-  'warren-umoh-dark.jpg',
+  'warren-umoh-dark.jpg'
 ]
 
 install_data(backgrounds, install_dir: backgrounddir)
@@ -36,6 +38,7 @@ install_data(backgrounds, install_dir: backgrounddir)
 foreach metadata : [
   'backgrounds.xml',
   'tau.xml',
+  'neutrino.xml'
   'fakurian-design.xml',
   'maxim-berg.xml',
   '3D_01.xml',
