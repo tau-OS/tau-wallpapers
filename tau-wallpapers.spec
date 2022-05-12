@@ -8,7 +8,7 @@ Summary:    tauOS %{VERSION} default desktop background
 
 License:    CC-BY-SA-4.0
 URL:        https://tauos.co
-Source0:    https://github.com/tau-OS/%{NAME}/releases/download/v%{VERSION}/%{NAME}-%{VERSION}.tar.gz
+Source0:    %{NAME}-%{VERSION}.tar.gz
 
 BuildRoot:  %{_tmppath}/%{name}
 BuildArch:  noarch
