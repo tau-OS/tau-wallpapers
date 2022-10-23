@@ -37,7 +37,7 @@ This package contains Gnome desktop wallpaper for the
 tauOS  %{VERSION} default theme.
 
 %prep
-%autosetup
+%setup -q -n tau-wallpapers-main
 
 %build
 %meson
