@@ -3,7 +3,7 @@
 
 Name:       tau-wallpapers
 Version:    1.1
-Release:    9%{?dist}
+Release:    10%{?dist}
 Summary:    tauOS %{VERSION} default desktop background
 
 License:    CC-BY-SA-4.0

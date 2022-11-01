@@ -2,8 +2,8 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Ally Griffin</name>
-        <filename>@BACKGROUNDDIR@/ally-griffin.jpg</filename>
+        <name>3D_01</name>
+        <filename>@BACKGROUNDDIR@/3D_01.png</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
@@ -43,16 +43,6 @@
     <wallpaper deleted="false">
         <name>Jan walter-luigi</name>
         <filename>@BACKGROUNDDIR@/jan-walter-luigi.jpg</filename>
-        <options>zoom</options>
-        <shade_type>solid</shade_type>
-        <pcolor>#3c6eb4</pcolor>
-        <scolor>#294172</scolor>
-    </wallpaper>
-    
-
-    <wallpaper deleted="false">
-        <name>John paul-dorf</name>
-        <filename>@BACKGROUNDDIR@/john-paul-dorf.jpg</filename>
         <options>zoom</options>
         <shade_type>solid</shade_type>
         <pcolor>#3c6eb4</pcolor>
