@@ -11,7 +11,7 @@ backgrounds = [
   'bradley-allweil.jpg',
   'daniel-sessler.jpg',
   'giordano-rossoni.jpg',
-  'jan-walter-luigi.jpg',
+  'jacqueline-o-gara.jpg',
   'luka-verc.jpg',
   'simon-berger.jpg'
 ]
