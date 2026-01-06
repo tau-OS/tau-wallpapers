@@ -7,6 +7,8 @@ backgrounds = [
   'tau-dark.png',
   'neutrino-dark.png',
   'neutrino-light.png',
+  'Earth.png',
+  'Whirl.png',
   '3D_01.png',
   'bradley-allweil.jpg',
   'daniel-sessler.jpg',
